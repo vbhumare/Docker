@@ -192,7 +192,7 @@ ubuntu         14.04   67759a80360c        6 days ago          221MB
 hello-world    latest  f2a91732366c        4 weeks ago         1.85kB
 ```
 
-# Step 6 — Listing Docker Containers
+# Step 5 — Listing Docker Containers
 
 You can list all runnig containers by using below commnad.
 ```sh

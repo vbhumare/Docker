@@ -37,7 +37,7 @@ Update the apt package index.
 $ sudo apt-get update
 ```
 
-Install the latest version of Docker CE, or go to the next step to install a specific version. Any existing installation of Docker is replaced.
+Install the latest version of Docker CE.
 ```sh
 $ sudo apt-get install docker-ce
 ```
@@ -47,6 +47,7 @@ apt-cache madison docker-ce
  docker-ce | 17.09.1~ce-0~ubuntu | https://download.docker.com/linux/ubuntu/ trusty/stable amd64 Packages
  docker-ce | 17.09.0~ce-0~ubuntu | https://download.docker.com/linux/ubuntu/ trusty/stable amd64 Packages
 ```
+install the specific version of Docker CE.
 ```sh
 $ sudo apt-get install docker-ce=<VERSION>
 ```
@@ -211,8 +212,4 @@ Use below command to stop and start container
 ```sh
 $ docker stop <container_id>
 $ docker start <container_id>
-```
-
-
-
-
+``
